@@ -3,12 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "setup": "evershop install",
-    "start": "evershop start",
-    "build": "evershop build",
+    "build": "evershop build",    
+    "start": "evershop start",    
+    "user:create": "evershop user:create",
+    "user:changePassword": "evershop user:changePassword",
     "dev": "evershop dev"
   },
   "dependencies": {
     "@evershop/evershop": "1.1.0"
+  },
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
   }
 }
